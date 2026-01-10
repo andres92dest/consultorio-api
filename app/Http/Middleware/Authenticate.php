@@ -9,7 +9,6 @@ class Authenticate extends Middleware
 {
     protected function redirectTo(Request $request): ?string
     {
-        // API-only: nunca redirigir
-        return null;
+        return null; //  clave: nunca redirigir
     }
 }
